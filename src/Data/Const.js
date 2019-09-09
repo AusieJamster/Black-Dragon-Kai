@@ -1,0 +1,38 @@
+export default {
+  MODERN_MARTIAL_ARTS: "modern-martial-arts",
+  BRAZILIAN_JIU_JITSU: "brazilian-jiu-jitsu",
+  SPORT_MMA: "sport-mma",
+  KUDO_DAIDO_JUKU: "kudo-daido-juku",
+  COMPETITION_TRAINING: "competition-training",
+  WRESTLING: "wrestling",
+  ADULT_CLASSES: "adult-classes",
+  MUAY_THAI: "muay-thai",
+
+  PRE_JUNIOR_DRAGONS: "pre-junior-dragons",
+  JUNIOR_DRAGONS: "junior-dragons",
+  KIDS_KARATE: "kids-karate",
+  KIDS_MUAY_THAI: "kids-muay-thai",
+  KIDS_MMA: "kids-mma",
+
+  BEAUDESERT: "beaudesert-hq",
+  JIMBOOMBA: "jimboomba",
+  MT_TAMBORINE: "mt-tamborine",
+  BOONAH: "boonah",
+  HELENSVALE: "helensvale",
+  TAMROOKUM: "tamrookum",
+  HEMMEANT: "hemmant",
+  WYNNUM: "wynnum",
+  MIAMI: "miami",
+  BRIBIE_ISLAND: "bribie-island",
+  ROCKHAMPTON: "rockhampton",
+  NERANG: "nerang",
+  YATALA: "yatala",
+
+  FAQ: "frequently-asked-questions",
+  INSTRUCTORS: "instructors",
+  TESTIMONIALS: "testimonials",
+  TRAIN_IN_WINTER: "train-in-winter",
+  SUPER_SUMMER_SPECIALS: "super-summer-specials",
+  STUDENT_RESOURCES: "student-resources",
+  TITLES_REWARDS: "titles-rewards"
+};
