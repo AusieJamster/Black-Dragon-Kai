@@ -23,24 +23,17 @@ function NavigationBar() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="header-nav" />
         <Navbar.Collapse id="header-nav">
-          <Nav className="mr-auto">
+          <Nav>
             <Link to="/" className="nav-link">
               Home
             </Link>
             <CustomNavDropDown title="About Us" buttons={NavData.ABOUTUS} />
-            <CustomNavDropDown
-              title="Adult Programs"
-              buttons={NavData.ADULT_PROGRAMS}
-            />
-            <CustomNavDropDown
-              title="Junior Programs"
-              buttons={NavData.JUNIOR_PROGRAMS}
-            />
+            <CustomNavDropDown title="Programs" buttons={NavData.PROGRAMS} />
             <CustomNavDropDown title="Resources" buttons={NavData.RESOURCES} />
           </Nav>
         </Navbar.Collapse>
         <Navbar.Text className="d-xl-inline d-none">
-          Offering Martial Arts instruction since 1993
+          Champions are not born, they are made
         </Navbar.Text>
       </Container>
     </Navbar>

@@ -23,7 +23,12 @@ export default {
       link: Const.SUPER_SUMMER_SPECIALS
     }
   ],
-  ADULT_PROGRAMS: [
+  PROGRAMS: [
+    {
+      text: "Adult Programs",
+      link: "",
+      disabled: true
+    },
     {
       text: "Modern Martial Arts",
       link: Const.MODERN_MARTIAL_ARTS
@@ -50,10 +55,14 @@ export default {
     },
     {
       text: "Muay Thai",
-      link: Const.MUAY_THAI
-    }
-  ],
-  JUNIOR_PROGRAMS: [
+      link: Const.MUAY_THAI,
+      divider: true
+    },
+    {
+      text: "Junior Programs",
+      link: "",
+      disabled: true
+    },
     {
       text: "Pre Junior Dragons",
       link: Const.PRE_JUNIOR_DRAGONS

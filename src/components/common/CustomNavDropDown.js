@@ -8,10 +8,22 @@ function CustomNavDropDown(props) {
     <NavDropdown title={props.title}>
       {props.buttons.map(button => {
         let index = props.buttons.indexOf(button);
+        let style = button.disabled ? { color: "orange" } : {};
+
         return (
-          <NavDropdown.Item key={index} as={Link} to={button.link} href="#">
-            {button.text}
-          </NavDropdown.Item>
+          <>
+            <NavDropdown.Item
+              key={index}
+              as={Link}
+              disabled={button.disabled}
+              to={button.link}
+              href="#"
+              style={style}
+            >
+              {button.text}
+            </NavDropdown.Item>
+            {button.divider && <NavDropdown.Divider />}
+          </>
         );
       })}
     </NavDropdown>
@@ -25,7 +37,9 @@ CustomNavDropDown.propTypes = {
       text: PropTypes.string.isRequired,
       link: PropTypes.string.isRequired
     })
-  )
+  ),
+  disabled: PropTypes.bool,
+  divider: PropTypes.bool
 };
 
 export default CustomNavDropDown;
