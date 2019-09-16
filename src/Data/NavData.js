@@ -84,6 +84,28 @@ export default {
       link: Const.KIDS_MMA
     }
   ],
+  EVENTS: [
+    {
+      text: "Grading",
+      link: Const.GRADING
+    },
+    {
+      text: "Banquet",
+      link: Const.BANQUET
+    },
+    {
+      text: "Martial Arts Camp",
+      link: Const.CAMP
+    },
+    {
+      text: "BDK Championships",
+      link: Const.CHAMPIONSHIP
+    },
+    {
+      text: "Black Belt Pre Test",
+      link: Const.BLACK_BELT
+    }
+  ],
   RESOURCES: [
     {
       text: "Student Resources",

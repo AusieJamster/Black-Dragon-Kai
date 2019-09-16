@@ -2,7 +2,7 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
-import NavData from "../Data/NavData";
+import NavData from "../data/NavData";
 import CustomNavDropDown from "./common/CustomNavDropDown";
 
 function NavigationBar() {
@@ -28,12 +28,13 @@ function NavigationBar() {
               Home
             </Link>
             <CustomNavDropDown title="About Us" buttons={NavData.ABOUTUS} />
+            <CustomNavDropDown title="Events" buttons={NavData.EVENTS} />
             <CustomNavDropDown title="Programs" buttons={NavData.PROGRAMS} />
             <CustomNavDropDown title="Resources" buttons={NavData.RESOURCES} />
           </Nav>
         </Navbar.Collapse>
         <Navbar.Text className="d-xl-inline d-none">
-          Champions are not born, they are made
+          Champions are not born, but forged
         </Navbar.Text>
       </Container>
     </Navbar>

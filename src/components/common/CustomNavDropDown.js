@@ -7,13 +7,10 @@ function CustomNavDropDown(props) {
   return (
     <NavDropdown title={props.title}>
       {props.buttons.map(button => {
-        let index = props.buttons.indexOf(button);
         let style = button.disabled ? { color: "orange" } : {};
-
         return (
-          <>
+          <React.Fragment key={button.text}>
             <NavDropdown.Item
-              key={index}
               as={Link}
               disabled={button.disabled}
               to={button.link}
@@ -23,7 +20,7 @@ function CustomNavDropDown(props) {
               {button.text}
             </NavDropdown.Item>
             {button.divider && <NavDropdown.Divider />}
-          </>
+          </React.Fragment>
         );
       })}
     </NavDropdown>
@@ -32,6 +29,7 @@ function CustomNavDropDown(props) {
 
 CustomNavDropDown.propTypes = {
   title: PropTypes.string.isRequired,
+  link: PropTypes.string,
   buttons: PropTypes.arrayOf(
     PropTypes.shape({
       text: PropTypes.string.isRequired,

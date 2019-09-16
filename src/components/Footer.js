@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import FooterSocial from "./common/FooterSocial";
-import Const from "../Data/Const";
+import Const from "../data/Const";
 
 function Footer() {
   return (

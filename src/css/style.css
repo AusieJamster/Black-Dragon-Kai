@@ -1,6 +1,6 @@
 body {
     background-color: rgb(50, 50, 50);
-    color: rgb(255, 255, 225);
+    color: rgb(220, 220, 220);
 }
 
 h5 {
@@ -15,7 +15,7 @@ h6 {
 
 footer a {
     text-decoration: none;
-    color: rgb(255, 255, 225);
+    color: rgb(220, 220, 220);
 }
 
 footer a:hover {
@@ -25,7 +25,7 @@ footer a:hover {
 
 footer, header {
     background-color: rgb(20, 20, 20);
-    color: rgb(255, 255, 225);
+    color: rgb(220, 220, 220);
 }
 
 footer * ul>li {
@@ -51,11 +51,11 @@ footer * ul>li::before {
 }
 
 .nav-link {
-    color: rgb(255, 255, 225);
+    color: rgb(220, 220, 220);
 }
 
 .nav-dropdown, .nav-dropdown:hover {
-    color: rgb(255, 255, 225);
+    color: rgb(220, 220, 220);
     background-color: black;
 }
 
@@ -69,8 +69,12 @@ footer * ul>li::before {
     background-color: #343a40;
 }
 
+/* .dropdown:hover .dropdown-menu {
+    display: block;
+} */
+
 .dropdown-item {
-    color: rgb(255, 255, 225);
+    color: rgb(220, 220, 220);
 }
 
 .carousel {
