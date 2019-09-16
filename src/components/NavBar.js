@@ -34,7 +34,7 @@ function NavigationBar() {
           </Nav>
         </Navbar.Collapse>
         <Navbar.Text className="d-xl-inline d-none">
-          Champions are not born, but forged
+          Champions aren't born, but forged
         </Navbar.Text>
       </Container>
     </Navbar>
